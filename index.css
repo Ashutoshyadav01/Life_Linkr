@@ -256,6 +256,9 @@ width: 20px;
    .comp-3{
     width: 100%;
    }
+   .wcu1{
+    flex-wrap: wrap;
+   }
     .abt-thr
     {
         flex-wrap: wrap;
@@ -268,6 +271,7 @@ width: 20px;
     }
     .wcu1{
         margin: auto;
+       
     }
     .bug-image{
         flex-wrap: wrap;
@@ -297,13 +301,14 @@ flex-wrap: wrap;
     background-color: white;
     width: 95%;
   margin: auto;
+  
 }
 .wcu1{
     display: flex;
     width: 95%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     margin-top: 10px;
-    flex-wrap: wrap;
+    
 }
 .bug-1{
     width: 70%;
