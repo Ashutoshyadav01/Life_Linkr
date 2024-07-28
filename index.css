@@ -17,12 +17,14 @@
     position: sticky;
     top: 0;
     z-index: 200;
+    
 }
 .div-2{
     display: flex;
     gap: 30px;
     margin-right: 70px;
     align-items: center;
+    flex-wrap: wrap;
    
 }
 .div-1{
@@ -109,6 +111,7 @@ padding-right: 20px;
     justify-content: space-around;
     background-color:#f6f6f6;
     z-index: 99;
+    flex-wrap: wrap;
 }
 
 .video1{
@@ -158,6 +161,7 @@ padding-top: 50px;
 }
 .bug-image{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .elements-2{
@@ -223,7 +227,26 @@ width: 20px;
     height: 900vh;
     position: left;
     background-color: #f6f6f6;
+    flex-wrap: wrap;
    
+}
+@media (max-width:600px) {
+    .elements{
+        display: none;
+    }
+    .nav-bar{
+        background-color: white;
+        flex-direction: column;
+    }
+    .div22 .video1{
+       width: 40vh; 
+       border-radius: 0%;
+    }
+    .sidebar{
+        display: none;
+    }
+   
+    
 }
 .bug-image img{
     width: 400px; 
@@ -243,6 +266,7 @@ width: 20px;
 .flex-1{
     display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 .Wcu{
     background-color: white;
@@ -254,6 +278,7 @@ justify-content: space-around;
     width: 95%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 .bug-1{
     width: 70%;

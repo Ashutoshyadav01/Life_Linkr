@@ -48,6 +48,14 @@ function profileChange()
 
 
 }
+function updateButtonText() {
+    var button = document.getElementById('responsive-button');
+    if (window.innerWidth <= 600) {
+        button.textContent = "Contact Us";
+    } else {
+        button.textContent = "WhatsApp Us";
+    }
+}
 function nameChange()
 {
     var x=document.getElementsByClassName("people");
