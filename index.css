@@ -245,8 +245,28 @@ width: 20px;
     .sidebar{
         display: none;
     }
-   
-    
+    .elements-2{
+        width: 100%;
+    }
+    .flex-1{
+        width: 100%;
+    }
+    .sidebar-container{
+        width: 100%;
+    }
+   .comp-3{
+    width: 100%;
+   }
+    .abt-thr
+    {
+        flex-wrap: wrap;
+    }
+    .teacher-container{
+        flex-direction: column;
+    }
+    .ashu{
+        display: flex;
+    }
 }
 .bug-image img{
     width: 400px; 
